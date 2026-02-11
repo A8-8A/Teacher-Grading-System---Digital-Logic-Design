@@ -54,3 +54,6 @@ Special care was taken to correctly handle boundary cases such as grades at the 
 ---
 
 ## Project Structure
+## Truth Table
+![First implementation of the trith table](https://github.com/user-attachments/assets/ca192840-c49c-4d36-b09c-52e38556c8cb)
+
