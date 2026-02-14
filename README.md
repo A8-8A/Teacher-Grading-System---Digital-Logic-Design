@@ -42,7 +42,8 @@ After analyzing the truth table, it was observed that the upper bits (A, B, C) r
 ![Analyzing patterns for D1 and deriving it from the truth table using K-maps](https://github.com/user-attachments/assets/12e62364-579f-4da2-b947-d5213fd72148)
 
 ### Derivation of Status Signal X
-![Finding X](https://github.com/user-attachments/assets/179e3274-9625-4086-9be9-54f0913e3408)
+![Finding X](https://github.com/user-attachments/assets/f96aabda-4123-404f-9cee-498c73c274f0)
+
 
 From the minimization process, the final Boolean expressions obtained were:
 
