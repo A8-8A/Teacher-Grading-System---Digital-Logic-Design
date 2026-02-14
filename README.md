@@ -55,5 +55,53 @@ Special care was taken to correctly handle boundary cases such as grades at the 
 
 ## Project Structure
 ## Truth Table
-![First implementation of the trith table](https://github.com/user-attachments/assets/ca192840-c49c-4d36-b09c-52e38556c8cb)
+
+![TruthTable](https://github.com/user-attachments/assets/1ee1e6f0-60c8-4280-a6c8-8c3459f24a5e)
+
+- after observing patterns we found out that the bits ABC don't change by the equatiopn so they are always equal to there respective next phase
+
+
+---
+
+## Deriving Equations for x and D1
+![Analyzing patterns for D1 and deriving it from the truth table using K-maps ](https://github.com/user-attachments/assets/12e62364-579f-4da2-b947-d5213fd72148)
+
+
+![Finding X](https://github.com/user-attachments/assets/179e3274-9625-4086-9be9-54f0913e3408)
+
+---
+- finally we found the equations were D1 = BC'D & X = (B'+C)D
+
+---
+
+## Logic Circuit Design
+- we were challanged to limit the number to only 2 ICs that meaned we can only use 2 types of gates from various types of gates XOR/NOR/NAND/AND/OR/
+ - after a lot of brain storming and discussion and tens of sketches me and my team finally succeeded in implementing the equation successfuly using only 2 ICs (8 gates)
+  - Using 7 NAND gates we sketched the logic design successfully
+
+<img width="358" height="405" alt="First successful Sketch" src="https://github.com/user-attachments/assets/3f802fd1-c8bc-4d60-91ff-2c47f49c6a80" />
+
+---
+
+## Quartus Schematic
+
+- I setup the inputs of the grades represented by the 4 bits A,B,C, and D and the grade after being processed to A1 ,B1, C1, and D1. X is the indicator that will flag a change to the grade were it turns green when it’s of value 0 and red when 1.
+
+<img width="975" height="435" alt="Implementation on Quartus" src="https://github.com/user-attachments/assets/c571f533-7fab-41a9-902c-a0a5f25297d5" />
+
+- We then simulated the design taking into consideration al the possible grades out of 10
+<img width="975" height="375" alt="Successful simulation of the design" src="https://github.com/user-attachments/assets/6581ed8e-c933-41a4-90b4-fe6b0494bef0" />
+
+
+## Finally 
+## Circuit Design 
+- using a Global Specialties PB-503ALAB - PB-503A provided by the Lebanese American University's Lab
+- 2x 74LS00
+- Lots of wires
+
+  
+  ![The successful Solution to the problem in circuitry](https://github.com/user-attachments/assets/e207145e-73ee-47bf-bf73-3a8e6bf38517)
+
+
+
 
