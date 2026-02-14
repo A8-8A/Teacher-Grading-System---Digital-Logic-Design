@@ -38,8 +38,7 @@ After analyzing the truth table, it was observed that the upper bits (A, B, C) r
 ---
 
 ## Derivation of Logic Equations
-### K-Map Analysis for D1
-![Analyzing patterns for D1 and deriving it from the truth table using K-maps](https://github.com/user-attachments/assets/12e62364-579f-4da2-b947-d5213fd72148)
+![Analyzing patterns for D1 and deriving it from the truth table using K-maps](https://github.com/user-attachments/assets/0802eac3-46dd-4421-9fd2-5444261ea36f)
 
 ### Derivation of Status Signal X
 ![Finding X](https://github.com/user-attachments/assets/f96aabda-4123-404f-9cee-498c73c274f0)
